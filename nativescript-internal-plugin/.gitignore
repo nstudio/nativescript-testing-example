@@ -1,0 +1,8 @@
+*.d.ts
+*.js
+*.js.map
+!references.d.ts
+!index.d.ts
+
+node_modules
+package-lock.json

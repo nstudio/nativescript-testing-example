@@ -1,0 +1,13 @@
+.DS_Store
+.vscode
+coverage
+hooks
+node_modules
+platforms
+package-lock.json
+*.js
+*.d.ts
+!index.d.ts
+!**/karma.conf.js
+!**/references.d.ts
+!**/webpack.config.js

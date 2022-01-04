@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "rootDir": ".",
+      "sourceMap": true,
+      "declaration": true,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "noEmitHelpers": false,
+      "target": "es2017",
+      "module": "esnext",
+      "lib": [
+        "es2017",
+        "dom"
+      ],
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "baseUrl": "."
+    },
+    "exclude": [
+      // need to consider excluding specs when building for release (another reason plugin-seed workspace helps streamline handling as can use workspace.json to identify tsconfig for builds better)
+      "**/*.spec.ts",
+      "node_modules",
+      "tmp"
+    ]
+  }

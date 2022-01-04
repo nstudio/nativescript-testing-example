@@ -1,0 +1,7 @@
+{
+    "name": "nativescript-testing-example",
+    "version": "1.0.0",
+    "scripts": {
+        "setup": "cd nativescript-internal-plugin && npm run clean && npm run build && cd ../demo && ns clean && npm i --legacy-peer-deps && cd ../demo-angular && ns clean && npm i --legacy-peer-deps"
+    }
+}

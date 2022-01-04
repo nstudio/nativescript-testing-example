@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "main": "app/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript/core": "~8.1.1",
+    "@nativescript/theme": "~3.0.1",
+    "@nativescript/unit-test-runner": "^3.0.1",
+    "nativescript-internal-plugin": "file:../nativescript-internal-plugin"
+  },
+  "devDependencies": {
+    "@jsdevtools/coverage-istanbul-loader": "3.0.5",
+    "@nativescript/android": "8.1.1",
+    "@nativescript/ios": "8.1.0",
+    "@nativescript/types": "~8.1.1",
+    "@nativescript/webpack": "~5.0.0",
+    "@types/jasmine": "3.10.2",
+    "karma": "6.3.9",
+    "karma-coverage": "2.0.3",
+    "karma-jasmine": "4.0.1",
+    "karma-nativescript-launcher": "0.4.0",
+    "nyc": "15.1.0",
+    "typescript": "~4.5.4"
+  }
+}

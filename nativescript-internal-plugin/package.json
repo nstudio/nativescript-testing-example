@@ -1,0 +1,14 @@
+{
+    "name": "nativescript-internal-plugin",
+    "version": "1.0.0",
+    "main": "index",
+    "typings": "index.d.ts",
+    "scripts": {
+        "clean": "npx rimraf node_modules package-lock.json *.js *.map && npm i --legacy-peer-deps",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/jasmine": "^3.10.2",
+        "typescript": "^4.3.5"
+    }
+}
